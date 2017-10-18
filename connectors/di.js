@@ -27,6 +27,4 @@ Connector.getTrackArt = () => {
 	return null;
 };
 
-Connector.isPlaying = () => {
-	return $('#webplayer-region').attr('data-state') === 'playing';
-};
+Connector.playButtonSelector = '.icon-play';
